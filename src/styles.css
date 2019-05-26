@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.outer {
+  position: relative;
+  width: 40px;
+  height: 18px;
+  border-radius: 15px;
+  background-color: gray;
+}
+.toggledOuter {
+  background-color: blue;
+}
+
+.inner {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-top: 4px;
+  background-color: white;
+  transform: translateX(0px);
+  transition: transform 500ms ease-in-out;
+}
+
+.toggled {
+  transform: translateX(20px);
+}
